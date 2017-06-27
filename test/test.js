@@ -4,7 +4,7 @@ import FileHandler from '../src/index';
 describe('FileHandler', function() {
   const testFilesPath = 'test/data/';
   const fileName = 'hello.txt';
-  let fileHandler = new FileHandler();
+  const fileHandler = new FileHandler();
   describe('getData', function() {
     it('should return error when invalid path', function(done) {
       const path = "blah";

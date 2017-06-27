@@ -2,7 +2,7 @@
   "name": "file-handler",
   "version": "1.0.0",
   "description": "Library creation demonstration",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "clean": "rm -rf dist",
     "prebuild": "npm run clean",
@@ -28,5 +28,8 @@
     "babel-preset-env": "^1.5.2",
     "babel-register": "^6.24.1",
     "mocha": "^3.4.2"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
