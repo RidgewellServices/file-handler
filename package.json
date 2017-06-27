@@ -1,0 +1,32 @@
+{
+  "name": "file-handler",
+  "version": "1.0.0",
+  "description": "Library creation demonstration",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "babel ./src -d ./dist --ignore test.js",
+    "start": "npm run dev",
+    "dev": "npm test -- -w",
+    "pretest": "npm run build",
+    "test": "mocha --compilers js:babel-core/register test/test.js"
+  },
+  "keywords": [
+    "node",
+    "fs",
+    "testing",
+    "mocha",
+    "javascript",
+    "es6"
+  ],
+  "author": "Ramona Ridgewell",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1",
+    "mocha": "^3.4.2"
+  }
+}
