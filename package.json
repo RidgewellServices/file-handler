@@ -1,5 +1,5 @@
 {
-  "name": "file-handler",
+  "name": "@rridgewell/file-handler",
   "version": "1.0.0",
   "description": "Library creation demonstration",
   "main": "./dist/index.js",
