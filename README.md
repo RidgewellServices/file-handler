@@ -8,4 +8,5 @@ in other modules. In this case, the library is a wrapper around node fs.
 ------------------------
 Usage
 ------------------------
-See blog post for an explanation of its intent and usage.
+See [this article](https://ramonaridgewell.wordpress.com/2017/06/28/my-js-journey-creating-an-npm-package/) for a description of how to set up this project and create an npm package.
+
